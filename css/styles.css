@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+  font-family: hara;
+  src: url('b.otf');
+}
+
+/*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
+
+  General styling
+
+~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*/
+
+
+body, html { 
+  font-family: Gill Sans; padding: 0; margin: 0; height: 100%;
+}
+
+body {
+  color: #333;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+h1 {
+  font-family: Blackoak STD;
+  font-size: 80px;
+  margin-left: 40px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.2) ;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+p {
+  font-size: 20px;
+  font-weight: 100;
+}
+p a {
+  text-decoration: none;
+  color: #777;
+}
+
+/*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
+
+  Nav
+
+~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*/
+
+
+#nav {
+  background:#333; /*blur would be cool*/
+  position: absolute;
+  top:0px;
+  height: 32px;
+  width: 100%;
+  border-bottom: #383838 solid 1px;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+h3 {
+  margin-left: 4px;
+  font-size: 18px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+#navlogo {
+  float: left;
+  padding: 1px 4px;
+  width: 30px;
+  opacity: 0.8;
+}
+
+h3 a {
+  margin-left: 10px;
+  font-weight: 300;
+  padding: 0px 4px 0 4px;
+  color:#eee;
+  text-decoration: none;
+}
+h3 a:hover {
+  color: #fff;
+}
+
+/*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
+
+  Parallax
+
+~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*/
+
+
+.story { 
+  height: 900px; 
+  width: 100%; 
+  border-top: 1px solid rgba(255,255,255,0.3); 
+  border-bottom: 1px solid rgba(0,0,0,0.4); 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+.content {
+  width: 400px;
+  margin-left: 150px;
+}
+.tix {
+  width: 800px;
+  margin-left: 150px;
+}
+#head { background: url('../img/quad.jpg') no-repeat fixed; }
+#about { background: url('../img/hand.jpg') no-repeat fixed; background-size: 100%; }
+#about .photo { background: url('../img/mini.png') transparent 40% 100px no-repeat fixed; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; }
+#social { background: url('../img/social.jpg') no-repeat; color:beige; }
+#staff { background: url('../img/office.jpg') no-repeat fixed; color:#ff0000; background-size: 100%; }
+#tickets { background: url('../img/puckered.png') no-repeat fixed; color: #eee;}
+#contact { background: url('../img/quad.jpg') no-repeat fixed; height: 500px;}
+
+.tbox{
+  background: rgba(200,200,200,0.5);
+  width: 300px;
+  padding: 10px 10px 10px 30px;
+  color: #ffff00;
+  border: #ffff00 solid 2px;
+}
+.detail {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 14px;
+}
+
+.logo { 
+  background: url('../img/logo2.png') no-repeat fixed; 
+  min-height: 900px; 
+  padding: 0; 
+  width: 100%; 
+  margin: 0 auto; 
+}
+#blurb {
+  width: 100%;
+  top: 0px;
+  position: absolute;
+  margin: 490px auto;
+  text-align: center;
+}
