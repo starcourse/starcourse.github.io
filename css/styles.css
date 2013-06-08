@@ -109,8 +109,8 @@ h3 a:hover {
 .story { 
   height: 900px; 
   width: 100%; 
-  border-top: 1px solid rgba(255,255,255,0.3); 
-  border-bottom: 1px solid rgba(0,0,0,0.4); 
+  border-top: 1px solid #333; 
+  border-bottom: 1px solid #222; 
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 .content {
@@ -119,7 +119,7 @@ h3 a:hover {
 }
 #head { background: url('../img/quad.jpg') no-repeat fixed 50% 0; }
 #about { background: url('../img/hand.jpg') no-repeat fixed; background-size: 100%; }
-#about .photo { background: url('../img/foe.jpg') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; }
+#about .photo { background: url('../img/foe2.png') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; }
 #social { background: url('../img/puckered.png') no-repeat; color:#ffffff;}
 #staff { background: url('../img/train.jpg') no-repeat fixed; color:#ffcc22; background-size: 100%; }
 #tickets { background: url('../img/puckered.png') no-repeat fixed; color: #eee;}
