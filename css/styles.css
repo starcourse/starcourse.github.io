@@ -35,9 +35,24 @@ p {
   font-size: 20px;
   font-weight: 100;
 }
-p a {
+a {
   text-decoration: none;
-  color: #777;
+  color: #aa0000;
+}
+
+/*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
+
+  Social media
+
+~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*/
+
+#socialbox {
+  width: 90%;
+  margin: 0 auto 0 150px;
+}
+#socialul li {
+  display: inline-block;
+  width: 30%;
 }
 
 /*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
@@ -102,33 +117,26 @@ h3 a:hover {
   width: 400px;
   margin-left: 150px;
 }
-.tix {
-  width: 800px;
-  margin-left: 150px;
-}
-#head { background: url('../img/quad.jpg') no-repeat fixed; }
+#head { background: url('../img/quad.jpg') no-repeat fixed 50% 0; }
 #about { background: url('../img/hand.jpg') no-repeat fixed; background-size: 100%; }
-#about .photo { background: url('../img/mini.png') transparent 40% 100px no-repeat fixed; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; }
-#social { background: url('../img/social.jpg') no-repeat; color:beige; }
-#staff { background: url('../img/office.jpg') no-repeat fixed; color:#ff0000; background-size: 100%; }
+#about .photo { background: url('../img/foe.jpg') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; }
+#social { background: url('../img/puckered.png') no-repeat; color:#ffffff;}
+#staff { background: url('../img/train.jpg') no-repeat fixed; color:#ffcc22; background-size: 100%; }
 #tickets { background: url('../img/puckered.png') no-repeat fixed; color: #eee;}
-#contact { background: url('../img/quad.jpg') no-repeat fixed; height: 500px;}
+#contact { background: url('../img/puckered.png') no-repeat fixed; height: 500px; color:#eee;}
 
 .tbox{
-  background: rgba(200,200,200,0.5);
+  background: rgba(200,200,200,0.4);
   width: 300px;
-  padding: 10px 10px 10px 30px;
-  color: #ffff00;
-  border: #ffff00 solid 2px;
+  padding: 10px 10px 10px 20px;
 }
 .detail {
   font-size: 14px;
   opacity: 0.8;
-  line-height: 14px;
 }
 
 .logo { 
-  background: url('../img/logo2.png') no-repeat fixed; 
+  background: url('../img/logo2.png') no-repeat fixed 50% 40px; 
   min-height: 900px; 
   padding: 0; 
   width: 100%; 
