@@ -41,7 +41,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: #333;
+  color: #555;
   font-weight: 400;
 }
 
@@ -51,15 +51,20 @@ a {
 
 ~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*/
 
-#socialbox {
-  background: rgba(0,0,0,0.2);
-  width: 70%;
-  margin: 0 auto 0 150px;
+#socialul {
+  position: fixed;
+  z-index: 1000;
+  right: 20px;
+  top: -14px;
 }
+
 #socialul li {
   text-align: center;
   display: inline-block;
-  width: 30%;
+}
+
+#socialul li img {
+  height: 30px;
 }
 
 /*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
@@ -74,7 +79,7 @@ a {
   position: fixed;
   top:0px;
   height: 32px;
-  z-index: 99999;
+  z-index: 999;
   width: 100%;
   border-bottom: #383838 solid 1px;
   -webkit-transition: .2s ease-in-out;
@@ -125,12 +130,11 @@ h3 a:hover {
   margin-left: 100px;
 }
 #head { background: url('../img/quad.jpg') no-repeat fixed 50% 0; }
-#about { background: url('../img/hand.jpg') no-repeat fixed; background-size: 100%; }
+#about { background: url('../img/hand2.jpg') no-repeat fixed 80% 0; }
 #about .photo { background: url('../img/foe2.png') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 3000; }
-#social { background: url('../img/site2.jpg') no-repeat; color:#333; height: 420px;}
-#staff { background: url('../img/stairs.jpg') no-repeat fixed; color:#eeeeee; background-size: 100%; }
-#tickets { background: url('../img/self.jpg') no-repeat fixed; color: #eee;}
-#contact { background: url('../img/sepia.jpg') no-repeat fixed; background-size: 100%; height: 500px; color:#eee;}
+#staff { background: url('../img/stairs.jpg') no-repeat fixed 50% 0; color:#eeeeee; }
+#tickets { background: url('../img/train.jpg') no-repeat fixed; color: #eee;}
+#contact { background: #555 url('../img/sepia.jpg') no-repeat fixed 50% 0; height: 500px; color:#eee; }
 
 .tbox{
   background: rgba(200,200,200,0.4);
