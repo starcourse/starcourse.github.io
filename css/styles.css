@@ -44,6 +44,9 @@ a {
   color: #555;
   font-weight: 400;
 }
+#tix {
+  color: #00ff00;
+}
 
 /*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
 
@@ -134,7 +137,7 @@ h3 a:hover {
 #about .photo { background: url('../img/foe2.png') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 3000; }
 #staff { background: url('../img/stairs.jpg') no-repeat fixed 50% 0; color:#eeeeee; }
 #tickets { background: url('../img/train.jpg') no-repeat fixed; color: #eee;}
-#contact { background: #555 url('../img/sepia.jpg') no-repeat fixed 50% 0; height: 500px; color:#eee; }
+#contact { background: url('../img/sepia.jpg') no-repeat fixed 50% 0; height: 500px; color:#eee; }
 
 .tbox{
   background: rgba(200,200,200,0.4);
