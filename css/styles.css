@@ -92,6 +92,9 @@ a {
   -ms-transition: opacity .2s ease-in-out;
   transition: .2s ease-in-out;
 }
+h2 a {
+  color: #fff;
+}
 h3 {
   margin-left: 4px;
   font-size: 18px;
