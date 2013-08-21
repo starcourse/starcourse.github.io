@@ -16,6 +16,8 @@ body, html {
   font-family: Gill Sans;
   padding: 0;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0,0,0,0.2) 1px 1px 3px;
 }
 
 body {
@@ -140,10 +142,10 @@ h3 a:hover {
   position: absolute;
 }
 #head { background: url('../img/quad.jpg') no-repeat fixed 50% 0; }
-#about { background: url('../img/handbw.jpg') no-repeat fixed 80% 0; }
+#about { background: url('../img/handweb.jpg') no-repeat fixed 80% 0; }
 #about .photo { background: url('../img/foe2.png') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; }
-#staff { background: url('../img/stairs.jpg') no-repeat fixed 50% 0; color:#eeeeee; }
-#tickets { background: url('../img/train.jpg') no-repeat fixed; color: #eee;}
+#staff { background: url('../img/stairsweb.jpg') no-repeat fixed 50% 0; color:#eeeeee; }
+#tickets { background: url('../img/trainweb.jpg') no-repeat fixed; color: #eee;}
 #contact { background: url('../img/pattern.png') fixed 50% 0; height: 500px; color:#eee; }
 
 .tbox{
@@ -172,8 +174,12 @@ h3 a:hover {
   text-align: center;
 }
 footer {
-  padding-top: 40px;
+  padding: 40px 0;
   height: 80px;
   text-align: center;
-  background: url('../img/floral.png') fixed 50% 80px; 
+  background: url('../img/floral.png') fixed 50% 80px;
+}
+footer a, footer p, footer img {
+  margin: 8px 0;
+  font-size: 14px;
 }
