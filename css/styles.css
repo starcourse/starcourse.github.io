@@ -27,6 +27,7 @@ h1 {
   font-family: Blackoak STD;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
   font-size: 80px;
+  line-height: 60px;
   margin-left: 40px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.2) ;
 }
@@ -45,7 +46,8 @@ a {
   font-weight: 400;
 }
 #tix {
-  color: #00ff00;
+  color: #fff;
+  border-bottom: #fff dotted 2px;
 }
 
 /*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
@@ -56,7 +58,6 @@ a {
 
 #socialul {
   position: fixed;
-  z-index: 1000;
   right: 20px;
   top: -14px;
 }
@@ -78,13 +79,13 @@ a {
 
 
 #nav {
-  background:#333; /*blur would be cool*/
+  background:rgba(50,50,50,0.8); /*blur would be cool*/
   position: fixed;
   top:0px;
   height: 32px;
   z-index: 9999;
   width: 100%;
-  border-bottom: #383838 solid 1px;
+  border-bottom: rgba(30,30,30,0.9) solid 1px;
   -webkit-transition: .2s ease-in-out;
   -moz-transition: .2s ease-in-out;
   -o-transition: opacity .2s ease-in-out;
@@ -137,7 +138,7 @@ h3 a:hover {
 #about .photo { background: url('../img/foe2.png') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 3000; }
 #staff { background: url('../img/stairs.jpg') no-repeat fixed 50% 0; color:#eeeeee; }
 #tickets { background: url('../img/train.jpg') no-repeat fixed; color: #eee;}
-#contact { background: url('../img/sepia.jpg') no-repeat fixed 50% 0; height: 500px; color:#eee; }
+#contact { background: url('../img/pattern.png') fixed 50% 0; height: 500px; color:#eee; }
 
 .tbox{
   background: rgba(200,200,200,0.4);
@@ -156,9 +157,17 @@ h3 a:hover {
   margin: 0 auto; 
 }
 #blurb {
+  padding: 4px;
+  background: rgba(255,255,255,0.4);
   width: 100%;
   top: 0px;
   position: absolute;
   margin: 490px auto;
   text-align: center;
+}
+footer {
+  padding-top: 40px;
+  height: 80px;
+  text-align: center;
+  background: url('../img/floral.png') fixed 50% 80px; 
 }
