@@ -136,9 +136,12 @@ h3 a:hover {
   width: 40%;
   margin-left: 100px;
 }
+.absolute {
+  position: absolute;
+}
 #head { background: url('../img/quad.jpg') no-repeat fixed 50% 0; }
 #about { background: url('../img/handbw.jpg') no-repeat fixed 80% 0; }
-#about .photo { background: url('../img/foe2.png') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; z-index: 3000; }
+#about .photo { background: url('../img/foe2.png') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; }
 #staff { background: url('../img/stairs.jpg') no-repeat fixed 50% 0; color:#eeeeee; }
 #tickets { background: url('../img/train.jpg') no-repeat fixed; color: #eee;}
 #contact { background: url('../img/pattern.png') fixed 50% 0; height: 500px; color:#eee; }
