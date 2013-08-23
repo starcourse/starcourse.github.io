@@ -39,7 +39,7 @@ h2 {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 100;
 }
@@ -135,24 +135,57 @@ h3 a:hover {
   border-top: 1px solid #333; 
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
+.tall {
+  height: 1500px;
+}
+#smcontent {
+  padding: 10px 26px;
+  margin: 100px 0;
+  font-size: 40px;
+  line-height: 80px;
+  background: rgba(255,255,255,0.8);
+}
 .content {
   width: 40%;
+  float: left;
   margin-left: 100px;
+}
+.upper {
+  position: relative;
+  top: -40px;
 }
 .absolute {
   position: absolute;
 }
+.aboutdet {
+  background: rgba(255,255,255,0.5);
+  border-radius: 4px;
+  border-left: #333 solid 8px;
+  padding: 4px;
+  font-size: 18px;
+}
+.thin {
+  width: 18%;
+}
+.right {
+  width: 80%;
+  top: 2px;
+}
+.right p {
+  line-height: 20px !important;
+}
 #head { background: url('../img/quadweb.jpg') no-repeat fixed 50% 0; }
-#about { background: url('../img/handweb.jpg') no-repeat fixed 80% 0; }
-#about .photo { background: url('../img/foeweb.png') no-repeat fixed; background-size: 40%; min-height: 900px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; }
-#staff { background: url('../img/stairsweb.jpg') no-repeat fixed 50% 0; color:#eeeeee; }
-#tickets { background: url('../img/trainweb.jpg') no-repeat fixed; color: #eee;}
-#contact { background: url('../img/pattern.png') fixed 50% 0; height: 500px; color:#eee; }
+#smdesc { background: url('../img/office.jpg') no-repeat fixed 50% 0; height:780px; }
+#about { background: url('../img/forestweb.jpg') no-repeat fixed 80% 0; }
+#staff { background: url('../img/grain.png') fixed; color:#eeeeee; }
+#tickets { background: url('../img/trainweb.jpg') no-repeat fixed; color: #eeeeee;}
+#contact { background: url('../img/pattern.png') fixed 50% 0; height: 500px; color:#eeeeee; }
 
 .tbox{
-  background: rgba(200,200,200,0.4);
+  background: rgba(255,255,255,0.5);
   width: 300px;
   padding: 10px 10px 10px 20px;
+  border-radius: 10px;
 }
 .detail {
   font-size: 14px;
@@ -175,7 +208,8 @@ h3 a:hover {
   text-align: center;
 }
 footer {
-  padding: 40px 0;
+  opacity: 0.7;
+  padding: 20px 0;
   height: 80px;
   text-align: center;
   background: url('../img/floral.png') fixed 50% 80px;
