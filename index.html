@@ -4,15 +4,20 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
     <meta name="google-site-verification" content="WbYPJ5sRwlEHShdPwHQKxiDjGAen2NccXdaPblq0GHI"/>
     <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel='stylesheet' type='text/css' href='css/styles.css'/>
+    <link rel='stylesheet' type='text/css' href='css/styles.scss'/>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-40008117-4', 'star-course.com');
-  ga('send', 'pageview');
-  </script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-40008117-4', 'star-course.com');
+    ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+    if (screen.width <= 699) {
+      document.location = "mobile.html";
+    }
+    </script>
 </head>
 <body>
     <div id="nav">
@@ -24,34 +29,35 @@
             <a id="link-contact" href="#contact">contact</a>
         </h3>
         <div id="socialul">
-        <ul>
-            <li id="facebook" class="aspect">
-                <a href="http://www.facebook.com/starcourse">
-                <img class="socialicon" src="img/color/facebook-circle-color@2x.png"/>
-                </a>
-            </li>
-            <li id="tumblr" class="aspect">
-                <a href="http://starcourse.tumblr.com/">
-                <img class="socialicon" src="img/color/tumblr-circle-color@2x.png"/>
-                </a>
-            </li>
-            <li id="twitter" class="aspect">
-                <a href="http://www.twitter.com/starcourse">
-                <img class="socialicon" src="img/color/twitter-circle-color@2x.png"/>
-                </a>
-            </li>
-            <li id="instagram" class="aspect">
-                <a href="http://instagram.com/starcourse">
-                <img class="socialicon" src="img/color/instaicon.png"/>
-                </a>
-            </li>
-            <li id="pinterest" class="aspect">
-                <a href="http://pinterest.com/starcourse">
-                <img class="socialicon" src="img/color/pinterest-circle-color@2x.png"/>
-                </a>
-            </li>
-        </ul>
+            <ul>
+                <li id="facebook" class="aspect">
+                    <a href="http://www.facebook.com/starcourse">
+                    <img class="socialicon" src="img/color/facebook-circle-color@2x.png"/>
+                    </a>
+                </li>
+                <li id="tumblr" class="aspect">
+                    <a href="http://starcourse.tumblr.com/">
+                    <img class="socialicon" src="img/color/tumblr-circle-color@2x.png"/>
+                    </a>
+                </li>
+                <li id="twitter" class="aspect">
+                    <a href="http://www.twitter.com/starcourse">
+                    <img class="socialicon" src="img/color/twitter-circle-color@2x.png"/>
+                    </a>
+                </li>
+                <li id="instagram" class="aspect">
+                    <a href="http://instagram.com/starcourse">
+                    <img class="socialicon" src="img/color/instaicon.png"/>
+                    </a>
+                </li>
+                <li id="pinterest" class="aspect">
+                    <a href="http://pinterest.com/starcourse">
+                    <img class="socialicon" src="img/color/pinterest-circle-color@2x.png"/>
+                    </a>
+                </li>
+            </ul>
         </div>  
+        <img id='badge' src="img/badge.png"/>
     </div>
     <section id="head" class="story" data-speed="4" data-type="background">
         <article>
@@ -64,10 +70,9 @@
             <h2 id='smcontent' itemprop="title">Star Course is a live-concert promotion and production organization run by students for fellow students and the Champaign-Urbana community. Members participate in all levels of event planning – from orchestrating advertising campaigns to organizing ticket sales to staffing house and backstage positions on the day-of-show. Star Course is about diversity in music, creativity in learning and friendship in community.</h2>
         </article>
     </section>
-    <section id="about" class="story" data-speed="4" data-offsetY="220" data-type="background">
-        <div class="photo" data-type="sprite" data-offsetY="650" data-Xposition="82%" data-speed="2"></div>
+    <section id="about" class="taller story" data-speed="5" data-offsetY="220" data-type="background">
         <article>
-            <h1>about</h1>
+            <h1 class='panetitle'>about</h1>
             <div class="content right">
                 <p class='aboutdet'><b>History.</b> Star Course is the University’s oldest student-run organization dating back to 1892. Designed to contract, promote and stage campus entertainment, Star Course brought its first orchestra to the University in 1912. Throughout the past century the organization has broadened its scope to jazz, big band, rock, comedy, R&amp;B, hip-hop and soul acts. Today Star Course focuses on providing a diverse selection of popular entertainment to the University and C-U community. </p>
                 <p class='aboutdet'><b>Organization.</b> Star Course is a non-profit, student-operated organization under the advisory of Assembly Hall. As a university talent-buying group, Star Course is remarkably independent. While many schools have small entertainment boards comprised of both faculty and students, Star Course is all students – top to bottom. </p>
@@ -81,8 +86,8 @@
     </section>
     <section id="staff" class="story tall" data-speed="4" data-offsetY="200" data-type="background">
         <article>
-            <h1>organization</h1>
-            <div class="content">
+            <h1 class='panetitle'>organization</h1>
+            <div class="content wide">
                 <h2 style='font-size:36px;'>Star Course Committees and Divisions</h2>
                 <p>Members are required to join one non-day of show and one day of show.</p>
                 <p>All members will join Public Relations or Publicity for a non-day of show committee with the option of participating in Ad Design, Ad Media, Marketing, Personnel, or Social Media. </p>
@@ -102,9 +107,9 @@
             </div>
         </article>
     </section>
-    <section id="tickets" class="story" data-speed="6" data-offsetY="260" data-type="background">
+    <section id="tickets" class="story" data-speed="6" data-offsetY="460" data-type="background">
         <article>
-            <h1>tickets</h1>
+            <h1 class='panetitle'>tickets</h1>
             <div class="content">
                 <h2><a id='tix' href="http://www.ticketmaster.com/University-of-Illinois-Foellinger-Auditorium-tickets-Urbana/venue/57782">Order via Ticketmaster</a></h2>
                 <p>Order by Phone: (217) 333-5000</p>
@@ -130,7 +135,7 @@
     </section>
     <section id="contact" class="story" data-speed="4" data-offsetY="950" data-type="background">
         <article>
-            <h1>contact</h1>
+            <h1 class='panetitle'>contact</h1>
             <div class="content upper">
                 <p itemprop="address"></br>
                     Mailbox 90</br>
@@ -144,8 +149,14 @@
         </article>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src='js/libs/jquery-1.6.1.min.js'></script>
     <script src="js/script.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script type="text/javascript">
+      $("#smcontent").fitText(2.4);
+      $(".aboutdet").fitText(4);
+      $(".panetitle").fitText(0.5, { minFontSize: '20px', maxFontSize: '68px' });
+      $(".wide").fitText(4);
+    </script>
 </body>
 <footer>
     <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/us/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Star-course.com</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="www.star-course.com" property="cc:attributionName" rel="cc:attributionURL">Bryce Dorn</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 United States License</a>.

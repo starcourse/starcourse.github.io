@@ -40,8 +40,6 @@ h2 {
 }
 p {
   font-size: 18px;
-  line-height: 26px;
-  font-weight: 100;
 }
 a {
   text-decoration: none;
@@ -82,7 +80,7 @@ a {
 
 
 #nav {
-  background:rgba(50,50,50,0.8); /*blur would be cool*/
+  background:rgba(50,50,50,0.8);
   position: fixed;
   top:0px;
   height: 32px;
@@ -94,6 +92,22 @@ a {
   -o-transition: opacity .2s ease-in-out;
   -ms-transition: opacity .2s ease-in-out;
   transition: .2s ease-in-out;
+}
+#badge {
+  padding-left: 14px;
+  transform:rotate(-20deg);
+  -ms-transform:rotate(-20deg);
+  -webkit-transform:rotate(-20deg);
+  opacity: 0.5;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+#badge:hover {
+  opacity: 1;
 }
 h2 a {
   color: #fff;
@@ -135,20 +149,28 @@ h3 a:hover {
   border-top: 1px solid #333; 
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
+.taller {
+  height: 1150px;
+}
 .tall {
   height: 1500px;
 }
+.panetitle {
+  width: 100%;
+}
 #smcontent {
-  padding: 10px 26px;
-  margin: 100px 0;
+  padding: 0 26px;
   font-size: 40px;
-  line-height: 80px;
+  line-height: 150%;
   background: rgba(255,255,255,0.8);
 }
 .content {
   width: 40%;
   float: left;
   margin-left: 100px;
+}
+.wide { 
+  width: 70%; 
 }
 .upper {
   position: relative;
@@ -163,6 +185,7 @@ h3 a:hover {
   border-left: #333 solid 8px;
   padding: 4px;
   font-size: 18px;
+  max-width: 700px;
 }
 .thin {
   width: 18%;
@@ -171,11 +194,8 @@ h3 a:hover {
   width: 80%;
   top: 2px;
 }
-.right p {
-  line-height: 20px !important;
-}
 #head { background: url('../img/quadweb.jpg') no-repeat fixed 50% 0; }
-#smdesc { background: url('../img/office.jpg') no-repeat fixed 50% 0; height:780px; }
+#smdesc { background: url('../img/office.jpg') no-repeat fixed 50% 0; height:800px; }
 #about { background: url('../img/forestweb.jpg') no-repeat fixed 80% 0; }
 #staff { background: url('../img/grain.png') fixed; color:#eeeeee; }
 #tickets { background: url('../img/trainweb.jpg') no-repeat fixed; color: #eeeeee;}
