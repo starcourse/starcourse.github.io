@@ -113,28 +113,30 @@ h2 a {
   color: #fff;
 }
 h3 {
-  margin-left: 4px;
+  margin-left: 1%;
   font-size: 18px;
   margin-top: 5px;
   letter-spacing: 1px;
+  width: 90%;
 }
 #navlogo {
   float: left;
-  padding: 1px 4px;
+  padding: 1px 1%;
   width: 30px;
   opacity: 0.8;
 }
 
 h3 a {
-  margin-left: 10px;
+  margin-left: 1%;
   font-weight: 300;
-  padding: 0px 4px 0 4px;
+  padding: 0px 0.2% 0 0.2%;
   color:#eee;
   text-decoration: none;
 }
 h3 a:hover {
   color: #fff;
 }
+
 
 /*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
 
@@ -211,7 +213,17 @@ h3 a:hover {
   font-size: 14px;
   opacity: 0.8;
 }
-
+#cta {
+  color: #fff;
+  font-size: 50px;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding: 4px;
+}
 .logo { 
   background: url('../img/logoclean.png') no-repeat fixed 50% 80px; 
   min-height: 900px;  
