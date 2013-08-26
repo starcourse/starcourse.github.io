@@ -200,7 +200,7 @@ h3 a:hover {
 #smdesc { background: url('../img/office.jpg') no-repeat fixed 50% 0; height:800px; }
 #about { background: url('../img/forestweb.jpg') no-repeat fixed 80% 0; }
 #staff { background: url('../img/grain.png') fixed; color:#eeeeee; }
-#tickets { background: url('../img/trainweb.jpg') no-repeat fixed; color: #eeeeee;}
+#events { background: url('../img/trainweb.jpg') no-repeat fixed; color: #eeeeee;}
 #contact { background: url('../img/pattern.png') fixed 50% 0; height: 500px; color:#eeeeee; }
 
 .tbox{
