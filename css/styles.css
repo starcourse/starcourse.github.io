@@ -130,7 +130,7 @@ h3 a:hover {
   width: 100%;
 }
 #banner {
-  font-size: 40px !important;
+  font-weight: 300;
   margin: 0;
   padding: 8px 10px 4px 10px;
   text-shadow: none;
@@ -220,7 +220,7 @@ h3 a:hover {
   width: 60%;
   border-radius: 10px;
   background: rgba(0,0,0,0.4) url('../img/casey.jpg') 300px 0 no-repeat;
-  color: #fff;
+  color: #fafafa;
   font-size: 40px;
 }
 #band {
@@ -230,6 +230,20 @@ h3 a:hover {
 #address {
   font-size: 24px;
   text-shadow: rgba(0,0,0,0.3) 1px 1px 3px;
+}
+#general {
+  position: relative;top: 20px;
+  border-bottom: #eee dotted 2px;
+  font-size: 40px;
+  color: #eee;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+#phone {
+  display:inline;
+  position: relative;
+  top: 20px;
+  left: 20px;
 }
 .logo { 
   margin: 0 auto; 
