@@ -223,6 +223,19 @@ h3 a:hover {
   color: #fafafa;
   font-size: 40px;
 }
+#banner a {
+  color: #fff;
+  text-shadow: rgba(0,0,0,0.7) 0 0 10px;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+#banner a:hover {
+  color: #555;
+  text-shadow: rgba(0,0,0,0.2) 0 0 4px;
+}
 #band {
   font-size: 70px;
   margin: 0;
