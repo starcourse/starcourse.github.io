@@ -196,11 +196,7 @@ h3 a:hover {
 #contact { height: 500px; background: url('../img/pattern.png') fixed 50% 0; color:#eeeeee; }
 
 .tbox{
-  padding: 4px 4px 4px 20px;
-  width: 300px;
-  border: rgba(255,255,255,0.6) solid 2px;
-  border-radius: 10px;
-  background: rgba(255,255,255,0.5);
+  margin-left: 40px;
 }
 .detail {
   font-size: 14px;
@@ -217,8 +213,8 @@ h3 a:hover {
   font-size: 40px;
 }
 #banner a {
-  color: #fff;
-  text-shadow: rgba(0,0,0,0.7) 0 0 10px;
+  color: #593eff;
+  text-shadow: rgba(0,0,0,0.1) 0 0 5px;
   -webkit-transition: .2s ease-in-out;
   -moz-transition: .2s ease-in-out;
   -ms-transition: opacity .2s ease-in-out;
@@ -226,8 +222,7 @@ h3 a:hover {
   transition: .2s ease-in-out;
 }
 #banner a:hover {
-  color: #555;
-  text-shadow: rgba(0,0,0,0.2) 0 0 4px;
+  color: #9b8bff;
 }
 #band {
   font-size: 70px;
