@@ -118,11 +118,12 @@ h3 a:hover {
   position: absolute;
   top: 0;
   height: 69px;
-  background: #fff;
+  background: url('../img/waves.png') #888;
   text-align: center;
   width: 100%;
 }
 #banner {
+  color: #fff;
   font-weight: 300;
   margin: 0;
   padding: 8px 10px 4px 10px;
@@ -212,16 +213,7 @@ h3 a:hover {
   font-size: 40px;
 }
 #banner a {
-  color: #593eff;
-  text-shadow: rgba(0,0,0,0.1) 0 0 5px;
-  -webkit-transition: .2s ease-in-out;
-  -moz-transition: .2s ease-in-out;
-  -ms-transition: opacity .2s ease-in-out;
-  -o-transition: opacity .2s ease-in-out;
-  transition: .2s ease-in-out;
-}
-#banner a:hover {
-  color: #9b8bff;
+  color: #F3F315;
 }
 #band {
   font-size: 70px;
