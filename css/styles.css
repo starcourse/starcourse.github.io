@@ -166,6 +166,10 @@ h3 a:hover {
 }
 .wide { 
   width: 70%; 
+  background: rgba(0,0,0,0.8);
+  border-radius: 10px;
+  color: #e8e8e8;
+  padding: 10px;
 }
 .upper {
   position: relative;
@@ -192,8 +196,8 @@ h3 a:hover {
 #head { background: url('../img/quadweb.jpg') no-repeat fixed 50% 0; }
 #smdesc { height:800px; background: url('../img/office.jpg') no-repeat fixed 50% 0; }
 #about { background: url('../img/forestweb.jpg') no-repeat fixed 80% 0; }
-#staff { background: url('../img/grain.png') fixed; color:#eeeeee; }
-#events { background: url('../img/trainweb.jpg') no-repeat fixed; color: #eeeeee;}
+#staff { height: 1200px; background: url('../img/versace.png') fixed; color:#333; }
+#events { height: 2800px; background: url('../img/grain.png') fixed; color: #eeeeee;}
 #contact { height: 500px; background: url('../img/pattern.png') fixed 50% 0; color:#eeeeee; }
 
 .tbox{
@@ -213,7 +217,7 @@ h3 a:hover {
   font-size: 40px;
 }
 #banner a {
-  color: #F3F315;
+  color: #ff00aa;
 }
 #band {
   font-size: 70px;
