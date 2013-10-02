@@ -105,7 +105,7 @@ h3 {
 h3 a {
   margin-left: 1%;
   padding: 0px 0.2% 0 0.2%;
-  color:#eee;
+  color:#fafafa;
   text-decoration: none;
   font-weight: 300;
 }
@@ -128,6 +128,9 @@ h3 a:hover {
   margin: 0;
   padding: 8px 10px 4px 10px;
   text-shadow: none;
+}
+#banner a {
+  font-size: 26px;
 }
 
 
@@ -166,10 +169,10 @@ h3 a:hover {
 }
 .wide { 
   width: 70%; 
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.4);
   border-radius: 10px;
   color: #e8e8e8;
-  padding: 10px;
+  padding: 10px 10px 10px 20px;
 }
 .upper {
   position: relative;
@@ -197,8 +200,8 @@ h3 a:hover {
 #smdesc { height:800px; background: url('../img/office.jpg') no-repeat fixed 50% 0; }
 #about { background: url('../img/forestweb.jpg') no-repeat fixed 80% 0; }
 #staff { height: 1200px; background: url('../img/versace.png') fixed; color:#333; }
-#events { height: 2800px; background: url('../img/grain.png') fixed; color: #eeeeee;}
-#contact { height: 500px; background: url('../img/pattern.png') fixed 50% 0; color:#eeeeee; }
+#events { height: 3500px; background: url('../img/grain.png') fixed; color: #fafafa;}
+#contact { height: 500px; background: url('../img/pattern.png') fixed 50% 0; color:#fafafa; }
 
 .tbox{
   margin-left: 40px;
@@ -259,11 +262,13 @@ h3 a:hover {
 footer {
   padding: 20px 0;
   height: 80px;
-  background: url('../img/floral.png') fixed 50% 80px;
+  color: #ddd;
+  background: url('../img/waves.png') fixed 50% 80px;
   text-align: center;
   opacity: 0.7;
 }
 footer a, footer p, footer img {
+  color: #eee;
   margin: 8px 0;
   font-size: 14px;
 }
