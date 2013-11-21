@@ -67,6 +67,18 @@ a {
 
 ~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*/
 
+#nav {
+  position: fixed;
+  top: 0;
+}
+#nav h3 {
+  top: -10px;
+}
+#socialul {
+  position: fixed;
+  right: 0;
+  top: -10px;
+}
 
 #nav {
   /*margin-top: 69px;*/
