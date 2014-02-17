@@ -135,7 +135,7 @@ h5 {
   position: absolute;
   top: 0;
   height: 69px;
-  background: url('../img/carbon_fibre.png') #888;
+  background: url('../img/carbon_fibre.png') fixed 50% 80px;
   text-align: center;
   width: 100%;
 }
