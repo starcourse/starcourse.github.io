@@ -128,8 +128,6 @@ h3 a:hover {
 }
 h5 {
   font-size: 0.6em;
-  position: relative;
-  top: 4px;
 }
 
 #cta {
@@ -142,6 +140,8 @@ h5 {
   width: 100%;
 }
 #banner {
+  position: relative;
+  top: 4px;
   color: #fff;
   font-weight: 300;
   margin: 0;
@@ -220,7 +220,7 @@ h5 {
 #about { background: url('../img/forestweb.jpg') no-repeat fixed 80% 0; }
 #staff { height: 1200px; background: url('../img/noisy.png') fixed; color:#333; }
 #events { height: 500px; background: url('../img/grain.png') fixed; color: #fafafa;}
-#contact { height: 700px; background: url('../img/pattern.png') fixed 50% 0; color:#fafafa; }
+#contact { height: 700px; background: url('../img/tree.jpg') fixed 80% 0; color:#fafafa; }
 
 .tbox{
   margin-left: 40px;
@@ -284,9 +284,9 @@ footer {
   padding: 20px 0;
   height: 80px;
   color: #ddd;
-  background: url('../img/waves.png') fixed 50% 80px;
+  background: url('../img/carbon_fibre.png') fixed 50% 80px;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 footer a, footer p, footer img {
   color: #eee;
