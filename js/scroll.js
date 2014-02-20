@@ -62,7 +62,8 @@ function resizeCTA(width) {
 }
 
 function resizeStaff(width) {
-  $("#staff").height( (2200 - width)^2 * 3 );
+  if(width > 1300) { $("#staff").height(1200); }
+  else { $("#staff").height( (2400 - width)^2 * 4 + 100 ); }
 }
 
 function resizeTitle(width) {
