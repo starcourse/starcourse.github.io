@@ -6,6 +6,7 @@ $(document).ready(function(){
   fixContentMargins($(window).width());
   resizeTitle($(window).width());
   resizeCTA($(window).width());
+  // resizeNav($(window).width());
 
   if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)){
     fontFallback();
@@ -33,11 +34,26 @@ $(window).resize(function(){
   resizeEvent(width);
   resizeTitle(width);
   resizeCTA(width);
+  // resizeNav(width);
 })
 
 // If mobile, seems font import doesn't work
 function fontFallback() {
   $("html").css({"font-family":"Helvetica"});
+}
+
+// TODO
+function resizeNav(width) {
+  if(width <= 760) {
+    $("#nav").css({"height":"100px"});
+    $("#navcontent").css({"font-size":"30px"});
+    $("#nav img").css({"height":"60px"});
+  }
+  else {
+    $("#nav").css({"height":"40px"});
+    $("#navcontent").css({"font-size":"18px","top":"20px"});
+    $("#nav img").css({"height":"30px"});
+  }
 }
 
 function resizeCTA(width) {
