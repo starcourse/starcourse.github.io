@@ -4,6 +4,10 @@
 
 ~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*/
 
+@font-face {
+font-family: Blackoak_STD;
+src: url("../font/BlackoakStd.otf");
+}
 
 body, html {
   overflow-x: hidden;
@@ -22,7 +26,7 @@ h1 {
   margin-left: 40px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
   font-size: 80px;
-  font-family: Blackoak STD;
+  font-family: Blackoak_STD;
   line-height: 60px;
 }
 h2 {
