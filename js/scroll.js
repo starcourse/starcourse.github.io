@@ -8,9 +8,9 @@ $(document).ready(function(){
   resizeCTA($(window).width());
   // resizeNav($(window).width());
 
-  if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)){
-    fontFallback();
-  }
+  // Don't need to do this check anymore, but user agent string might be useful in future.
+  // if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)){
+  // }
 
   // Scroll js should control nav at all times
  $(window).scroll(function(){
@@ -37,24 +37,19 @@ $(window).resize(function(){
   // resizeNav(width);
 })
 
-// If mobile, seems font import doesn't work
-function fontFallback() {
-  $("html").css({"font-family":"Helvetica"});
-}
-
 // TODO
-function resizeNav(width) {
-  if(width <= 760) {
-    $("#nav").css({"height":"100px"});
-    $("#navcontent").css({"font-size":"30px"});
-    $("#nav img").css({"height":"60px"});
-  }
-  else {
-    $("#nav").css({"height":"40px"});
-    $("#navcontent").css({"font-size":"18px","top":"20px"});
-    $("#nav img").css({"height":"30px"});
-  }
-}
+// function resizeNav(width) {
+//   if(width <= 760) {
+//     $("#nav").css({"height":"100px"});
+//     $("#navcontent").css({"font-size":"30px"});
+//     $("#nav img").css({"height":"60px"});
+//   }
+//   else {
+//     $("#nav").css({"height":"40px"});
+//     $("#navcontent").css({"font-size":"18px","top":"20px"});
+//     $("#nav img").css({"height":"30px"});
+//   }
+// }
 
 function resizeCTA(width) {
   if(width <= 760) $("#banner a").css({"font-size":"10px"});
