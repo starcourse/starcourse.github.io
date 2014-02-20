@@ -9,8 +9,9 @@ $(document).ready(function(){
   // resizeNav($(window).width());
 
   // Don't need to do this check anymore, but user agent string might be useful in future.
-  // if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)){
-  // }
+  if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)){
+    changeBG();
+  }
 
   // Scroll js should control nav at all times
  $(window).scroll(function(){
@@ -50,6 +51,11 @@ $(window).resize(function(){
 //     $("#nav img").css({"height":"30px"});
 //   }
 // }
+
+function changeBG(){
+  $("#about").css({"background":"url('../img/carbon_fibre.png')"})
+  $("#smdesc").css({"background":"url('../img/noisy.png')"})
+}
 
 function resizeCTA(width) {
   if(width <= 760) $("#banner a").css({"font-size":"10px"});

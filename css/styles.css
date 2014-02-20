@@ -5,8 +5,8 @@
 ~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*/
 
 @font-face {
-font-family: Blackoak_STD;
-src: url("../font/BlackoakStd.otf");
+  font-family: Blackoak_STD;
+  src: url('../font/BlackoakStd.otf');
 }
 
 body, html {
