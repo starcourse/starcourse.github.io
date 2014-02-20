@@ -81,7 +81,6 @@ a {
 }
 
 #nav {
-  /**/
   z-index: 9999;
   /*COMMENT NEXT LINE TO HIDE BANNER*/
   margin-top: 69px;
@@ -184,7 +183,7 @@ h5 {
 .content {
   float: left;
   margin-left: 100px;
-  width: 40%;
+  width: 80%;
 }
 .wide {
   padding: 10px 10px 10px 20px; 
@@ -252,7 +251,8 @@ h5 {
   font-size: 24px;
 }
 #general {
-  position: relative;top: 20px;
+  position: relative;
+  top: 20px;
   margin-bottom: 20px;
   border-bottom: #eee dotted 2px;
   color: #eee;
