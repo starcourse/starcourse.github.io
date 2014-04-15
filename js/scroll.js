@@ -1,10 +1,10 @@
 $(document).ready(function(){
   // On load, make sure everything is laid correctly
   resizeStaff($(window).width());
-  resizeContact($(window).width());
-  resizeEvent($(window).width());
-  fixContentMargins($(window).width());
-  resizeTitle($(window).width());
+  // resizeContact($(window).width());
+  // resizeEvent($(window).width());
+  // fixContentMargins($(window).width());
+  // resizeTitle($(window).width());
   resizeCTA($(window).width());
   // resizeNav($(window).width());
 
@@ -25,18 +25,18 @@ $(document).ready(function(){
   $('#socialul').css({"position":"relative","top":"-50px","right":"0"});
   }
  });
-})
+});
 
 $(window).resize(function(){
   var width = $(window).width();
-  fixContentMargins(width);
+//   fixContentMargins(width);
   resizeStaff(width);
-  resizeContact(width);
-  resizeEvent(width);
-  resizeTitle(width);
+//   resizeContact(width);
+//   resizeEvent(width);
+//   resizeTitle(width);
   resizeCTA(width);
   // resizeNav(width);
-})
+});
 
 // TODO
 // function resizeNav(width) {

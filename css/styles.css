@@ -51,7 +51,6 @@ a {
 
 #socialul {
   position: relative;
-  top: -50px;
   float: right;
   padding-right: 20px;
 }
@@ -80,13 +79,15 @@ a {
 }
 #socialul {
   position: fixed;
+  top: -8px;
+  /*COMMENT NEXT LINE IF HIDING BANNER*/
   top: 60px;
   right: 0;
 }
 
 #nav {
   z-index: 9999;
-  /*COMMENT NEXT LINE TO HIDE BANNER*/
+  /*COMMENT NEXT LINE IF HIDING BANNER*/
   margin-top: 69px;
   width: 100%;
   height: 40px;
@@ -222,8 +223,8 @@ h5 {
 #smdesc { height:800px; background: url('../img/office.jpg') no-repeat fixed 50% 0; }
 #about { background: url('../img/forestweb.jpg') no-repeat fixed 80% 0; }
 #staff { height: 1200px; background: url('../img/noisy.png') fixed; color:#333; }
-#events { height: 1800px; background: url('../img/grain.png') fixed; color: #fafafa;}
-#contact { height: 700px; background: url('../img/tree.jpg') fixed 80% 0; color:#fafafa; }
+#events { height: 600px; background: url('../img/phant-1.jpg') fixed; color: #fafafa;}
+#contact { height: 700px; background: url('../img/grouplove-1.jpg') fixed; color:#fafafa; }
 
 .tbox{
   margin-left: 40px;
@@ -296,4 +297,31 @@ footer a, footer p, footer img {
   margin: 8px 0;
   color: #eee;
   font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+  .logo {
+    background-size: 90%;
+  }
+  #cta h2 {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+  #smcontent {
+    font-size: 2em;
+  }
+  .content.wide {
+    margin-left: 10px;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+
 }
