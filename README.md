@@ -22,6 +22,6 @@ It's very straightforward. The only changes you'll likely need to make are those
 
 ---
 
-That should cover everything. If this covered everything, I'll shed a tear of happiness. But if you have any questions, shoot me a message or an [email](mailto:combatfetus4@gmail.com).
+That should cover everything. If this made sense, I'll shed a tear of happiness. But if you have any questions, shoot me a message or an [email](mailto:combatfetus4@gmail.com).
 
 ### Good luck! We're all counting on you.
