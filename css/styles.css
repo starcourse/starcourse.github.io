@@ -81,14 +81,14 @@ a {
   position: fixed;
   top: -8px;
   /*COMMENT NEXT LINE IF HIDING BANNER*/
-  top: 60px;
+  /*top: 60px;*/
   right: 0;
 }
 
 #nav {
   z-index: 9999;
   /*COMMENT NEXT LINE IF HIDING BANNER*/
-  margin-top: 69px;
+  /*margin-top: 69px;*/
   width: 100%;
   height: 40px;
   border-bottom: rgba(30,30,30,0.9) solid 1px;
