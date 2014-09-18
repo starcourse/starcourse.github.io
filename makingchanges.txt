@@ -1,0 +1,17 @@
+A better guide for making changes to site:
+
+Changing banner:
+ 1. Pull down current version of site
+ 2. Find 'index.html' in the main folder and open it in a text editor like sublime
+
+ 3. Edit <div id="cta"> to have correct content - list artists currently lined up
+ 4. Scroll down to <section id="events">, it should be about halfway down the page
+ 5. Add the poster image in the first link, and make sure the href (url) is correct for where you can buy tickets.
+ 6. Add relevant links for tickets below image in 'content' block
+ 7. If there are multiple events, then copy entire block and paste it below, changing info as necessary. You will need to change the height of the 'events' pane (since it'll be longer now), this can be found in 'css/styles.css' on line 226, (change #events { height: _x_ px }), where _x_ is however high it needs to be. Just refresh it locally and see how it looks.
+
+Always, *always* test it before you push any changes. You can open 'index.html' in chrome and see how it'll look, make sure it's what you want before pushing it to github.
+
+
+Getting rid of banner:
+ - If you ever need to do this, I'll update this guide
