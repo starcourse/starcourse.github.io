@@ -81,14 +81,14 @@ a {
   position: fixed;
   top: -8px;
   /*COMMENT NEXT LINE IF HIDING BANNER*/
-  /*top: 60px;*/
+  top: 60px;
   right: 0;
 }
 
 #nav {
   z-index: 9999;
   /*COMMENT NEXT LINE IF HIDING BANNER*/
-  /*margin-top: 69px;*/
+  margin-top: 69px;
   width: 100%;
   height: 40px;
   border-bottom: rgba(30,30,30,0.9) solid 1px;
@@ -223,7 +223,7 @@ h5 {
 #smdesc { height:800px; background: url('../img/office.jpg') no-repeat fixed 50% 0; }
 #about { background: url('../img/forestweb.jpg') no-repeat fixed 80% 0; }
 #staff { height: 1200px; background: url('../img/noisy.png') fixed; color:#333; }
-#events { height: 600px; background: url('../img/phant-1.jpg') fixed; color: #fafafa;}
+#events { height: 1900px; background: url('../img/phant-1.jpg') fixed; color: #fafafa;}
 #contact { height: 700px; background: url('../img/grouplove-1.jpg') fixed; color:#fafafa; }
 
 .tbox{
