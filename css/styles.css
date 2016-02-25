@@ -43,6 +43,13 @@ a {
   font-weight: 400;
 }
 
+iframe{
+  width:560;
+  height:315;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
 
   Social media
@@ -156,6 +163,10 @@ h5 {
   font-size: 23px;
 }
 
+.videowrapper {
+  text-align:center;
+  width:100%;
+}
 
 /*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*~'`^`'~*-,._.,-*
 
