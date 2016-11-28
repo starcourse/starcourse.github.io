@@ -267,12 +267,11 @@ h5 {
   font-size: 24px;
 }
 #general {
-  position: relative;
+  text-align: center;
   top: 20px;
   margin-bottom: 20px;
-  border-bottom: #eee dotted 2px;
   color: #eee;
-  font-size: 40px;
+  font-size: 20px;
   line-height: 40px;
 }
 #phone {
