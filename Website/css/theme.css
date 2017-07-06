@@ -5,7 +5,8 @@ body {
 	font-family:Open Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color:#fff;
 	background-color:#000;
-	 font-weight:300;
+	font-weight:300;
+	padding:0px 10px;
 }
 html {
 	width:100%;
@@ -444,7 +445,4 @@ section {
 	border-bottom:2px solid lightseagreen;
 	outline:0;
 	outline: none;
-}
-.parallax-container {
-	height:500px;
 }
