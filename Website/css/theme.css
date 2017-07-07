@@ -120,6 +120,8 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
+	/* TODO: update background image here by changing filepath and file name.
+		Image must be saved in "css" folder. */
 	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url("grouplove_bw.jpg");
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
