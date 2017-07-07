@@ -22,12 +22,8 @@
 					<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 					<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 			<![endif]-->
+	<!-- TODO: Set favicon (browser tab icon) -->
 	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
-	<script>
-		// Hide poster div on page load
-		var x = document.getElementById('posters');
-		x.style.display = 'none';
-	</script>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation -->
@@ -59,17 +55,14 @@
 				<a href="#intro">Home</a>
 			</li>
 			<li>
+				<a href="#events">Events</a>
+			</li>
+			<li>
 				<a href="#about">About</a>
 			</li>
 			<li>
 				<a href="#staff">Staff</a>
 			</li>
-			<li>
-				<a href="#events">Events</a>
-			</li>
-			<!-- <li>
-				<a href="history.html#history">History</a>
-			</li> -->
 			<li>
 				<a href="#contact">Contact</a>
 			</li>
@@ -80,6 +73,7 @@
 <!-- /.container -->
 </nav>
 <!-- Intro Header -->
+<!-- TODO: Change background image in theme.css -->
 <header class="intro">
 <a name="intro"></a> 
 <div class="intro-body">
@@ -90,7 +84,7 @@
 				<p class="intro-text">
 					University of Illinois, est. 1892
 				</p>
-				<a href="#about" class="btn btn-circle page-scroll">
+				<a href="#events" class="btn btn-circle page-scroll">
 				<i class="fa fa-angle-double-down animated"></i>
 				</a>
 			</div>
@@ -98,6 +92,113 @@
 	</div>
 </div>
 </header>
+<!-- Events Section -->
+<section id="events">
+<a name="events"></a> 
+<div class="container content-section text-center">
+	<div class="row">
+		<h2>UPCOMING EVENTS</h2>
+		<div class="col-lg-8 col-lg-offset-2">
+			<p>Thanks for a great 2016 - 2017 season!<br>Find us at Quad Day on Sunday August 27th, 2017.<br></p>
+			<p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+			<h3>PREVIOUS EVENTS</h3>
+			<script>
+				// JavaScript for "Click to hide/show" button
+				function showPosters() {
+	   			var x = document.getElementById('posters');
+    			if (x.style.display == 'none') {	
+        		x.style.display = 'block';
+						document.getElementById("posterButtonI").className = "fa fa-caret-up fa-fw";
+						document.getElementById("posterButtonSpan").textContent = "Click to hide";
+    			} else {
+        		x.style.display = 'none';
+						document.getElementById("posterButtonI").className = "fa fa-caret-down fa-fw";
+						document.getElementById("posterButtonSpan").textContent = "Click to show";
+    			}
+				}
+			</script>
+			<p>
+				<button id="posterButton" class="btnghost" onclick="showPosters()">
+					<i id="posterButtonI" class="fa fa-caret-down fa-fw"></i><span id="posterButtonSpan">Click to show</span>
+				</button>
+			</p>
+			<div id="posters" style="display:none;">
+				<br>
+				<!-- TODO: Duplicate this block to add shows and seasons to this section
+				<div class="row">
+					<h4 class="text-center"> 20XX - 20YY Season: </h4>
+					<img src="img/posters/[image file name]" title="[artist name]" height="250">
+					<img src="img/posters/[image file name]" title="[artist name]" height="250">
+					<img src="img/posters/[image file name]" title="[artist name]" height="250">
+					<img src="img/posters/[image file name]" title="[artist name]" height="250">
+					<p><br></p>
+				</div>
+				<br>
+				-->
+				<div class="row">
+					<h4 class="text-center"> 2016 - 2017 Season: </h4>
+					<img src="img/posters/neon%20indian.png" title="Neon Indian" height="250">
+					<img src="img/posters/American%20Football.png" title="American Football" height="250">
+					<img src="img/posters/Vince.png" title="Vince Staples" height="250">
+					<img src="img/posters/noname.jpg" title="Noname" height="250">
+					<p><br></p>
+				</div>
+				<br>
+				<div class="row">		
+					<h4 class="text-center"> 2015 - 2016 Season: </h4>
+					<img src="img/posters/nate%20ruess.png" title="Nate Ruess" height="250">
+					<img src="img/posters/rae%20sremmurd.png" title="Rae Sremmurd" height="250">
+					<img src="img/posters/ryn%20weaver.png" title="Ryn Weaver" height="250">
+					<img src="img/posters/father%20john%20misty.jpg" title="Father John Misty" height="250">
+					<p><br></p>
+				</div>
+				<br>
+				<div class="row">		
+					<h4 class="text-center"> 2014 - 2015 Season: </h4>
+					<img src="img/posters/skyferreira.jpg" title="Sky Ferreira" height="200">
+					<img src="img/posters/mac.jpg" title="Mac DeMarco" width="200">
+					<img src="img/posters/hoodieallen.jpg" title="Hoodie Allen" height="200">
+					<img src="img/posters/bo%20burnham.jpg" title="Bo Burnham" height="200">
+					<img src="img/posters/ilovemakonnen.jpg" title="ILOVEMAKONNEN" height="200">
+					<p><br></p>
+				</div>
+				<br>
+				<div class="row">		
+					<h4 class="text-center"> 2013 - 2014 Season: </h4>
+					<img src="img/posters/caseyjames.jpg" title="Casey James" height="250">
+					<img src="img/posters/baauer.jpg" title="Baauer" height="250">
+					<img src="img/posters/grouplove.jpg" title="Grouplove" height="250">
+					<img src="img/posters/phantogram.jpg" title="Phantogram" height="250">
+					<p><br></p>
+				</div>
+			</div>
+			<!-- ./posters -->
+		</div>
+	</div>
+</div>
+<!-- ./container -->
+</section>
+<!-- Picture Gallery Break 1 -->
+<section id="break1">
+<!-- TODO: Update gallery images here by changing the filepath and file name. 
+	All images should be the same dimensions in order to fit correctly. -->
+<div class="gallery">
+	<ul>
+		<li class="col-md-3">
+			<img src="img/banners/phant-1bw.jpg" alt="">
+		</li>
+		<li class="col-md-3">
+			<img src="img/banners/caseybw.jpg" alt="">
+		</li>
+		<li class="col-md-3">
+			<img src="img/banners/concert1bw.jpg" alt="">
+		</li>
+		<li class="col-md-3">
+			<img src="img/banners/concert4bw.jpg" alt="">
+		</li>
+	</ul>
+</div>
+</section>
 <!-- About Section -->
 <section id="about">
 <a name="about"></a> 
@@ -150,22 +251,25 @@
 		</div>
 	</div>
 </div>
+<!-- ./container -->
 </section>
-<!-- Picture Gallery Break 1 -->
-<section id="break1">
+<!-- Picture Gallery Break 2 -->
+<section id="break2">
+<!-- TODO: Update gallery images here by changing the filepath and file name. 
+	All images should be the same dimensions in order to fit correctly. -->
 <div class="gallery">
 	<ul>
 		<li class="col-md-3">
-			<img src="img/banners/phant-1bw.jpg" alt="">
+			<img src="img/banners/concert2bw.jpg" alt="">
 		</li>
 		<li class="col-md-3">
-			<img src="img/banners/caseybw.jpg" alt="">
+			<img src="img/banners/grouplove-2bw.jpg" alt="">
 		</li>
 		<li class="col-md-3">
-			<img src="img/banners/concert1bw.jpg" alt="">
+			<img src="img/banners/phant-2bw.jpg" alt="">
 		</li>
 		<li class="col-md-3">
-			<img src="img/banners/concert4bw.jpg" alt="">
+			<img src="img/banners/grouplove3bw.jpg" alt="">
 		</li>
 	</ul>
 </div>
@@ -212,111 +316,12 @@
 		</div>
 	</div>
 </div>
-</section>
-<!-- Picture Gallery Break 2 -->
-<section id="break2">
-<div class="gallery">
-	<ul>
-		<li class="col-md-3">
-			<img src="img/banners/concert2bw.jpg" alt="">
-		</li>
-		<li class="col-md-3">
-			<img src="img/banners/grouplove-2bw.jpg" alt="">
-		</li>
-		<li class="col-md-3">
-			<img src="img/banners/phant-2bw.jpg" alt="">
-		</li>
-		<li class="col-md-3">
-			<img src="img/banners/grouplove3bw.jpg" alt="">
-		</li>
-	</ul>
-</div>
-</section>
-<!-- Events Section -->
-<section id="events">
-<a name="events"></a> 
-<div class="container content-section text-center">
-	<div class="row">
-		<h2>UPCOMING EVENTS</h2>
-		<div class="col-lg-8 col-lg-offset-2">
-			<p>Thanks for a great 2016 - 2017 season!<br>Find us at Quad Day on Sunday August 27th, 2017.<br></p>
-			<p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
-			<h3>PREVIOUS EVENTS</h3>
-			<script>
-				function showPosters() {
-	   			var x = document.getElementById('posters');
-    			if (x.style.display == 'none') {	
-        		x.style.display = 'block';
-						document.getElementById("posterButtonI").className = "fa fa-caret-up fa-fw";
-						document.getElementById("posterButtonSpan").textContent = "Click to hide";
-    			} else {
-        		x.style.display = 'none';
-						document.getElementById("posterButtonI").className = "fa fa-caret-down fa-fw";
-						document.getElementById("posterButtonSpan").textContent = "Click to show";
-    			}
-				}
-			</script>
-			<p>
-				<button id="posterButton" class="btnghost" onclick="showPosters()">
-					<i id="posterButtonI" class="fa fa-caret-down fa-fw"></i><span id="posterButtonSpan">Click to show</span>
-				</button>
-			</p>
-			<div id="posters" style="display:none;">
-				<br>
-				<!-- TODO: Use this block to add new seasons to this section
-				<div class="row">
-					<h4 class="text-center"> 20XX - 20YY Season: </h4>
-					<img src="img/posters/[image file name]" title="[artist name]" height="250">
-					<img src="img/posters/[image file name]" title="[artist name]" height="250">
-					<img src="img/posters/[image file name]" title="[artist name]" height="250">
-					<img src="img/posters/[image file name]" title="[artist name]" height="250">
-					<p><br></p>
-				</div>
-				<br>
-				-->
-				<div class="row">
-					<h4 class="text-center"> 2016 - 2017 Season: </h4>
-					<img src="img/posters/neon%20indian.png" title="Neon Indian" height="250">
-					<img src="img/posters/American%20Football.png" title="American Football" height="250">
-					<img src="img/posters/Vince.png" title="Vince Staples" height="250">
-					<img src="img/posters/noname.jpg" title="Noname" height="250">
-					<p><br></p>
-				</div>
-				<br>
-				<div class="row">		
-					<h4 class="text-center"> 2015 - 2016 Season: </h4>
-					<img src="img/posters/nate%20ruess.png" title="Nate Ruess" height="250">
-					<img src="img/posters/rae%20sremmurd.png" title="Rae Sremmurd" height="250">
-					<img src="img/posters/ryn%20weaver.png" title="Ryn Weaver" height="250">
-					<img src="img/posters/father%20john%20misty.jpg" title="Father John Misty" height="250">
-					<p><br></p>
-				</div>
-				<br>
-				<div class="row">		
-					<h4 class="text-center"> 2014 - 2015 Season: </h4>
-					<img src="img/posters/skyferreira.jpg" title="Sky Ferreira" height="200">
-					<img src="img/posters/mac.jpg" title="Mac DeMarco" width="200">
-					<img src="img/posters/hoodieallen.jpg" title="Hoodie Allen" height="200">
-					<img src="img/posters/bo%20burnham.jpg" title="Bo Burnham" height="200">
-					<img src="img/posters/ilovemakonnen.jpg" title="ILOVEMAKONNEN" height="200">
-					<p><br></p>
-				</div>
-				<br>
-				<div class="row">		
-					<h4 class="text-center"> 2013 - 2014 Season: </h4>
-					<img src="img/posters/caseyjames.jpg" title="Casey James" height="250">
-					<img src="img/posters/baauer.jpg" title="Baauer" height="250">
-					<img src="img/posters/grouplove.jpg" title="Grouplove" height="250">
-					<img src="img/posters/phantogram.jpg" title="Phantogram" height="250">
-					<p><br></p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<!-- containter -->
 </section>
 <!-- Picture Gallery Break 3 -->
 <section id="break3">
+<!-- TODO: Update gallery images here by changing the filepath and file name. 
+	All images should be the same dimensions in order to fit correctly. -->
 <div class="gallery">
 	<ul>
 		<li class="col-md-3">
@@ -341,13 +346,12 @@
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2">
 			<h2>Contact Us</h2>
-			<p> 
-				Get in touch with the Senior Management:
+			<!-- TODO: Change contact info for senior managers -->
+			<p>	Get in touch with the Senior Management:
 				<i><a href="mailto:kate.milleker@gmail.com" style="border-bottom:1px dashed #ccc;">Kate</a></i>
 				and <i><a href="mailto:nmcain430@gmail.com" style="border-bottom:1px dashed #ccc;">Nick</a></i>.
 			</p>
-			<p> 
-				Any other questions? Contact 
+			<p> Any other questions? Contact 
 				<i><a href="mailto:starcoursemusic@gmail.com" style="border-bottom:1px dashed #ccc;">starcoursemusic@gmail.com</a></i>.
 			</p>
 			<p>Follow us at @starcourseuiuc for the latest Star Course updates! </p>
@@ -365,6 +369,7 @@
 		</div>
 	</div>
 </div>
+<!-- ./container -->
 </section>
 <!-- Footer -->
 <footer>
@@ -372,8 +377,6 @@
 	<p class="credits">
 		Star Course, est. 1892<br>
 		University of Illinois at Urbana-Champaign<br><br>
-		<!-- <a href="https://www.star-course.com" style="border-bottom:1px dashed #ccc;">www.star-course.com</a> 
-			● <a href="mailto:starcoursemusic@gmail.com" style="border-bottom:1px dashed #ccc;">starcoursemusic@gmail.com</a><br><br> -->
 		<a href="https://www.facebook.com/starcourseuiuc" target="_blank" style="border-bottom:1px dashed #ccc;">Facebook</a> 
 			● <a href="https://twitter.com/starcourseuiuc" target="_blank" style="border-bottom:1px dashed #ccc;">Twitter</a> 
 			● <a href="https://instagram.com/starcourseuiuc" target="_blank" style="border-bottom:1px dashed #ccc;">Instagram</a><br><br>
