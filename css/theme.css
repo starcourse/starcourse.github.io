@@ -5,7 +5,7 @@ body {
 	font-family:Open Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color:#fff;
 	background-color:#000;
-	 font-weight:300;
+	font-weight:300;
 }
 html {
 	width:100%;
@@ -19,7 +19,8 @@ h1,h2,h3,h4,h5,h6 {
 	letter-spacing:1px;
 }
 p {
-	margin:0 0 25px;
+	margin-left:25px;
+	margin-right:25px;
 	font-size:18px;
 	line-height:1.5;
 }
@@ -119,7 +120,8 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url("/img/grouplove_bw.jpg");
+	/* TODO: update background image here by changing filepath and file name */
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('grouplove_bw.jpg');
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -417,34 +419,4 @@ section {
 	-moz-transition:border linear 0.2s,box-shadow linear 0.2s;
 	-o-transition:border linear 0.2s,box-shadow linear 0.2s;
 	transition:border linear 0.2s,box-shadow linear 0.2s;	
-}
-#contactform input,#contactform textarea {
-	border:0px;
-	border-bottom:2px solid #333;
-	width:100%;
-	background-color:transparent;
-	padding:20px 0px;
-	text-transform:uppercase;
-	letter-spacing:2px;
-	margin-bottom:20px;
-}
-#contactform input#submit {
-	width:auto;
-	border:2px solid;
-	padding:10px 20px;
-	display:inline-block;
-}
-#contactform input#submit:hover {
-	background-color:#333;
-	color:#fff;
-	border:2px solid #333;
-}
-#contactform input:focus,#contactform input:active,#contactform textarea:focus,#contactform textarea:active {
-	border-top:0px;
-	border-bottom:2px solid lightseagreen;
-	outline:0;
-	outline: none;
-}
-.parallax-container {
-	height:500px;
 }
