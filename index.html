@@ -33,11 +33,33 @@
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
-					<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-					<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-			<![endif]-->
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 	<!-- TODO: Set favicon (browser tab icon) -->
 	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
+	<!-- Code for targeted advertising -->
+	<script type="text/javascript">
+    		adroll_adv_id = "P6CL5KOF5VG5PKBXKHNTEI";
+    		adroll_pix_id = "R6C5RUNI6FG3DFGXJ3PPE2";
+    		/* OPTIONAL: provide email to improve user identification */
+		/* adroll_email = "username@example.com"; */
+		(function () {
+			var _onload = function(){
+				if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+			    	if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+			    	var scr = document.createElement("script");
+			    	var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+			    	scr.setAttribute('async', 'true');
+			    	scr.type = "text/javascript";
+			    	scr.src = host + "/j/roundtrip.js";
+			    	((document.getElementsByTagName('head') || [null])[0] ||
+					document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+			};
+			if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+			else {window.attachEvent('onload', _onload)}
+		}());
+	</script>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation -->
