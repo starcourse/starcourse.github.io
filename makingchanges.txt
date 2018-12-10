@@ -10,7 +10,7 @@ What you have to change on the website:
 3. Adding shows under “History”
 4. Senior Manager names
 
-Save all poster files under Website/img/posters as a .png or .jpg.
+Save all poster files under website/img/posters as a .png or .jpg.
 
 I would HIGHLY recommend doing some HTML and Github tutorials before starting. They’ll do a better job explaining the basics of the process than I can.
 

@@ -1,8 +1,8 @@
-# [star-course.com](http://star-course.com/)
+# [http://star-course.com](http://star-course.com/)
 
 --------------------------------------------------
 
-## About:
+### About making website updates:
 
 Our website is hosted as a single page static site on Github. Our domain is owned and operated by UIUC so you never have to worry about paying to renew it. I’ve used Bootstrap and some Javascript to make the website pretty and interactive. If you’re making any updates to the website you won’t have to do anything except make a few changes to the HTML code.
 
@@ -16,7 +16,7 @@ Only make edits to index.html and history.html. Leave all the other files alone!
 3. Adding shows under “History”
 4. Senior Manager names
 
-Save all poster files under Website/img/posters as a .png or .jpg.
+Save all poster files under website/img/posters as a .png or .jpg.
 
 I would HIGHLY recommend doing some HTML and Github tutorials before starting. They’ll do a better job explaining the basics of the process than I can.
 
@@ -31,8 +31,8 @@ I would HIGHLY recommend doing some HTML and Github tutorials before starting. T
    - If you’re familiar with Github, just make yourself a contributor to the repo and save yourself some hassle with multiple accounts.
 
 2. Download the Website folder to your personal machine
-   - Use git commands to import it onto your computer:
-   (Make sure you’re in the desired folder where you want the “website” folder to be saved)
+   - Use git commands to import it onto your computer
+(Make sure you’re in the desired folder where you want the “website” folder to be saved)
 ```
 git clone https://github.com/starcourse/website.git
 cd website
@@ -40,8 +40,8 @@ git add .
 git commit -m "initial commit"
 git push origin master
 ```
-   - OR download it as a .zip file from Github and initialize git after saving:
-    (I’m assuming you’ve already extracted and saved the .zip folder into its desired location. In this example you’ve named it “existing_folder” so replace the command with the actual folder name)
+   - OR download it as a .zip file from Github and initialize git after saving
+(I’m assuming you’ve already extracted and saved the .zip folder into its desired location. In this example you’ve named it “existing_folder” so replace the command with the actual folder name)
 ```
 cd existing_folder
 git init
