@@ -1,5 +1,7 @@
 # [http://star-course.com](http://star-course.com/)
 
+#### PS: The repo name "starcourse.github.io" is what makes this site publishable so DON'T rename it
+
 --------------------------------------------------
 
 ### About making website updates:
