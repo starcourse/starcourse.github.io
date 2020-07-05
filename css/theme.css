@@ -121,7 +121,9 @@ a:hover,a:focus {
 	text-align:center;
 	color:#fff;
 	/* TODO: update background image here by changing filepath and file name */
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('grouplove_bw.jpg');
+	/* background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('grouplove_bw.jpg'); */
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/introphoto.jpg');
+
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;

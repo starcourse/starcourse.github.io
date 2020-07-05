@@ -1,3 +1,7 @@
+-- THIS TEXT IS A DUPLICATE OF THE READ.ME --
+
+
+
 Our website is hosted as a single page static site on Github. Our domain is owned and operated by UIUC so you never have to worry about paying to renew it. I’ve used Bootstrap and some Javascript to make the website pretty and interactive. If you’re making any updates to the website you won’t have to do anything except make a few changes to the HTML code.
 
 PS: The repo name "starcourse.github.io" is what makes this site publishable so DON'T rename it
