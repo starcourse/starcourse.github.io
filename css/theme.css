@@ -1,3 +1,12 @@
+/* TODO: change theme color of multiple buttons, text, etc. (currently teal) */
+/* also need to change vignette color of main image at top of page (next TODO in this file) */
+:root {
+	--main-color: #1ba39c;
+	/* --main-color: salmon; */
+}
+
+
+
 /* Aries v1.0 - by WowThemes.net */
 body {
 	width:100%;
@@ -76,7 +85,7 @@ a:hover,a:focus {
 }
 .navbar-custom .nav li a:hover {
 	outline:0;
-	color:#1ba39c;
+	color: var(--main-color);
 	background-color:transparent;
 }
 .navbar-custom .nav li a:focus,.navbar-custom .nav li a:active {
@@ -87,10 +96,10 @@ a:hover,a:focus {
 	outline:0;
 }
 .navbar-custom .nav li.active a {
-	color:#1ba39c;
+	color:var(--main-color);
 }
 .navbar-custom .nav li.active a:hover {
-	color:#1ba39c;
+	color:var(--main-color);
 }
 @media(min-width:768px) {
 	.navbar-custom {
@@ -121,8 +130,10 @@ a:hover,a:focus {
 	text-align:center;
 	color:#fff;
 	/* TODO: update background image here by changing filepath and file name */
-	/* background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('grouplove_bw.jpg'); */
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/introphoto.jpg');
+	/* top line adds black vignette, second line adds colored vignette (can change rgbs value to anything) */
+	/* background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/introphoto.jpg'); */
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(27, 168, 161, 0.6)),url('../img/introphoto.jpg');
+
 
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -242,7 +253,7 @@ a:hover,a:focus {
 	-moz-transition:all .3s ease-in-out;
 	transition:all .3s ease-in-out;
 }
-.btn-default {
+/* .btn-default {
 	border:1px solid #42dca3;
 	color:#42dca3;
 	background-color:transparent;
@@ -252,7 +263,7 @@ a:hover,a:focus {
 	outline:0;
 	color:#000;
 	background-color:#42dca3;
-}
+} */
 ul.banner-social-buttons {
 	margin-top:0;
 }

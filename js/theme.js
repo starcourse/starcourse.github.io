@@ -1,9 +1,13 @@
-// jQuery to collapse the navbar on scroll
+// jQuery to collapse the navbar on scroll (and remove/add bottom boxshadow)
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $(".navbar-fixed-top").css("box-shadow" , "0px 0px 7px #bbb");
+
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-fixed-top").css("box-shadow" , "none");
+
     }
 });
 
