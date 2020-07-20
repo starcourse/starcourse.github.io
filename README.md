@@ -10,8 +10,7 @@
 Our website is hosted as a single page static site on Github. Our domain is owned and operated by UIUC so you never have to worry about paying to renew it. The website uses Bootstrap for styling (make things look nice) and some Javascript for dynamics (make things change and move). If you’re making any updates to the website you won’t have to do anything except make a few changes to the HTML code in `index.html` or  `history.html`.
 
 This isn’t a drag and drop website; you’ll have to actually write code to make changes. But don’t worry, you can do it! ☺
-
-### Again, only make edits to `index.html` or `history.html`. Leave all the other files alone!
+#### Again, only make edits to `index.html` or `history.html`. Leave all the other files alone!
 
 --------------------------------------------------
 
