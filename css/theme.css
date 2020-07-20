@@ -130,9 +130,11 @@ a:hover,a:focus {
 	text-align:center;
 	color:#fff;
 	/* TODO: update background image here by changing filepath and file name */
-	/* top line adds black vignette, second line adds colored vignette (can change rgbs value to anything) */
+	/* top line adds black vignette, second(orange)/third(teal) line adds colored vignette (can change rgbs value to anything) */
 	/* background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/introphoto.jpg'); */
+	/* background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(231, 93, 14, 0.6)),url('../img/introphoto.jpg'); */
 	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(27, 168, 161, 0.6)),url('../img/introphoto.jpg');
+
 
 
 	-webkit-background-size:cover;
@@ -432,4 +434,8 @@ section {
 	-moz-transition:border linear 0.2s,box-shadow linear 0.2s;
 	-o-transition:border linear 0.2s,box-shadow linear 0.2s;
 	transition:border linear 0.2s,box-shadow linear 0.2s;	
+}
+
+.rounded {
+	border-radius: 5px;
 }
