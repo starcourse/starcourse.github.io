@@ -11,7 +11,7 @@ Our website is hosted as a single page static site on Github. Our domain is owne
 
 This isn’t a drag and drop website; you’ll have to actually write code to make changes. But don’t worry, you can do it! ☺
 
-Again, only make edits to `index.html` or `history.html`. Leave all the other files alone!
+### Again, only make edits to `index.html` or `history.html`. Leave all the other files alone!
 
 --------------------------------------------------
 
@@ -93,11 +93,11 @@ I HIGHLY recommend doing some HTML and Github tutorials before starting. They’
    - SAVE all changes! If you don’t save before a push or refresh nothing changes.
    - Test locally: open `index.html` (double click on the icon in the website folder) in browser and refresh it whenever you save to see your changes in action. This lets you see your changes before the whole world does. Voila! Local development.
 
- * The nice thing about using Github pages is that the code on the site is almost immediately updated as changes are pushed to the repository. So once you push, it's live within a couple of minutes.
+   * The nice thing about using Github pages is that the code on the site is almost immediately updated as changes are pushed to the repository. So once you push, it's live within a couple of minutes.
 
-* #### BECAUSE OF THIS, ONLY MAKE CHANGES LOCALLY!
+   * #### BECAUSE OF THIS, ONLY MAKE CHANGES LOCALLY!
 
- * Adding new content: If you need to add a poster or change a background image, add it to the proper folder ( img/posters, img/livephotos, etc.). Then use the `git add .` command so that Git recognizes it. Otherwise, the uploaded website won't have access to or display the new picture. (You can also upload it into Github manually, but this can be annoying and cause pull/merge issues)
+   * Adding new content: If you need to add a poster or change a background image, add it to the proper folder ( img/posters, img/livephotos, etc.). Then use the `git add .` command so that Git recognizes it. Otherwise, the uploaded website won't have access to or display the new picture. (You can also upload it into Github manually, but this can be annoying and cause pull/merge issues)
 
 
 4. Push changes to the Github repository:
