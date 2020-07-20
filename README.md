@@ -35,7 +35,8 @@ I HIGHLY recommend doing some HTML and Github tutorials before starting. They’
 
 ---------------------------------------------------
 ### CodeBase Description
-#### This is a brief description of all the files, languages, frameworks, etc. and their functions. You don't have to understand (or even read) this section to change the website.
+#### This is a brief description of all the files, languages, frameworks, etc. and their functions.
+#### You don't have to understand (or even read) this section to change the website.
  - `index.html` - the main HTML site
  - `history.html` - the 'history' portion of the site, navigated to from the 'see more history' button on index.html
  - css - responsible for styling the webpage, i.e. changing colors, sizes, text styles, etc.
@@ -110,6 +111,6 @@ I HIGHLY recommend doing some HTML and Github tutorials before starting. They’
       git push origin master
       ```
 
-And BOOM you’re done!
+   ### And BOOM you’re done!
 
-Best of luck to you all.
+   ### Best of luck to you all.
